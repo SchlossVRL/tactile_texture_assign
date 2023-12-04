@@ -275,7 +275,7 @@ timeline.push({
   //   randomize_order: true,
   //   repetitions: 3
     
-  }
+  // }
 
   const save_data = {
     type: jsPsychPipe,
