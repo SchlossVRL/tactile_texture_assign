@@ -61,7 +61,7 @@ var consent = {
       <br><br><strong><u>ARE THERE ANY BENEFITS TO ME?</u></strong>
       <br>There are no direct benefits for participating in this study.
       <br><br><strong><u>WILL I BE COMPENSATED FOR MY PARTICIPATION?</u></strong>
-      <br>You will receive the number of extra credit points that were specified when you signed up for this experiment (1 credit for 30 min slot, 2 credit = 60 min slot), to be used in your class for participating in this study.
+      <br>You will receive the number of extra credit points that were specified when you signed up for this experiment (1.5 credit for 30 min slot, 3 credit = 60 min slot), to be used in your class for participating in this study.
       <br><br>If you do withdraw prior to the end of the study, you will receive no compensation.
       <br><br><strong><u>HOW WILL MY CONFIDENTIALITY BE PROTECTED?</u></strong>
       <br>While there will probably be publications as a result of this study, your name will not be used. Typically, group characteristics will be published, but datasets with individual responses may also be shared. In such cases, the data will not be linked to your name or other identifiable information.
