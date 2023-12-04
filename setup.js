@@ -102,20 +102,20 @@ timeline.push(demographics);
 
 var instructions = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `<p><b>For RA running the participant: Read the instructions below to the participant ad verbatim. Use the LEFT and RIGHT arrow\
+  stimulus: `<p><p style = "max-width:800px"><b>For RA running the participant: Read the instructions below to the participant ad verbatim. Use the LEFT and RIGHT arrow\
    keys to record the participants' responses on each trial.</b></p>
-    <p>During this experiment you will be presented with a series of bar graphs on pieces of cardboard.
+    <p style = "max-width:800px">During this experiment you will be presented with a series of bar graphs on pieces of cardboard.
     Each graph represents a different person's preferences for two kinds of ${category}, ${concepts[0]} and ${concepts[1]} .
     Within each graph, one bar represents ${concepts[0]} and the other bar represents ${concepts[1]}.
     The bars will have different textures, but will not be labeled in any way.
 
-    On each trial you will be presented with a bar graph inside this box and will be asked to touch the graph using only one finger.
+    On each trial you will be presented with a bar graph inside this box and will be asked to touch the graph using only one finger.<br>
     The experimenter will ask you to indicate which bar corresponds to either ${concepts[0]} or ${concepts[1]}.
     You can respond by saying <b>RIGHT</b> or <b>LEFT</b>.
     Please use your intuition about which bar texture corresponds to the kind of ${category} asked by the experimenter.
 
         
-    <p>The experiment will take about 25 minutes. We will first begin with 5 practice trials</p>`,
+    <p>The experiment will take about 25 minutes. We will first begin with 5 practice trials</p></p>`,
   choices: [" "]
 };
 
