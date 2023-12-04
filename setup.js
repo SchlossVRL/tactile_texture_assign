@@ -295,8 +295,8 @@ timeline.push({
   var debrief = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function(){
-        return `<p>Great job! You have finished the experiment.</p> 
-        <p>The goal of this experiment is to understand how people map different textures to concepts like fruits and animals.</p>
+        return `<p><b>Debrief</b></p><p<>Great job! You have finished the experiment.</p> 
+        <p>The goal of this experiment is to understand how people map different textures to concepts like produce and animals.</p>
         <p>You may have been shown different concepts than others who took part in this experiment. <br>\
         Thank you for participating! You may now close this window.</p>            
     `},
