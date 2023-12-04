@@ -115,7 +115,8 @@ var instructions = {
     Please use your intuition about which bar texture corresponds to the kind of ${category} asked by the experimenter.
 
         
-    <p>The experiment will take about 25 minutes. We will first begin with 5 practice trials</p></p>`,
+    <p>The experiment will take about 25 minutes. We will first begin with 5 practice trials</p><br>
+    <b>Press SPACEBAR to begin</p>`,
   choices: [" "]
 };
 
