@@ -81,7 +81,7 @@ var consent = {
   button_label: "Start Experiment",
   };
 // timeline.push(welcome);
-timeline.push(consent);
+// timeline.push(consent);
 
   var demographics = {
     type: jsPsychSurveyText,
