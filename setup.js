@@ -2,7 +2,8 @@
 
 /// create a function called setupExperiment() that will be called when the page loads
 async function setupExperiment() {
-const condition = await jsPsychPipe.getCondition("QZzy6rmJcIKi");
+// const condition = await jsPsychPipe.getCondition("QZzy6rmJcIKi");
+const condition = 1;
 // if (condition==0){
 //   concepts = ['bear','fish']
 //   category = 'animal'
