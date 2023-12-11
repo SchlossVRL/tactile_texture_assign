@@ -2,7 +2,7 @@
 
 /// create a function called setupExperiment() that will be called when the page loads
 async function setupExperiment() {
-// const condition = await jsPsychPipe.getCondition("QZzy6rmJcIKi");
+// const condition = await jsPsychPipe.getCondition("nQm1xxh5mE4G");
 const condition = 1;
 // if (condition==0){
 //   concepts = ['bear','fish']
@@ -12,13 +12,16 @@ const condition = 1;
 //   category = 'fruit'
 // }
 
-if (condition==0){
-  concepts = ['tree foliage','glacial ice']
-  category = 'natural resource'
-} else if (condition==1){
-  concepts = ['raspberries','carrot']
-  category = 'produce'
-}
+// if (condition==0){
+//   concepts = ['tree foliage','glacial ice']
+//   category = 'natural resource'
+// } else if (condition==1){
+//   concepts = ['raspberries','carrot']
+//   category = 'produce'
+// }
+
+  concepts = ['justice','calm']
+  category = 'values'
 
 
 
@@ -281,7 +284,7 @@ timeline.push({
   const save_data = {
     type: jsPsychPipe,
     action: "save",
-    experiment_id: "QZzy6rmJcIKi",
+    experiment_id: "nQm1xxh5mE4G",
     filename: filename,
     data_string: ()=>jsPsych.data.get().csv()
   };
@@ -311,7 +314,6 @@ timeline.push({
 // timeline.push(goodbye);
 timeline.push(save_data);
 timeline.push(debrief);
-
 jsPsych.run(timeline);
 
 }
